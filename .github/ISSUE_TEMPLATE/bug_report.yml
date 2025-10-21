@@ -23,7 +23,7 @@ body:
     attributes:
       label: "🪜 Langkah untuk Mereproduksi"
       description: Urutan langkah agar bug ini bisa direproduksi.
-      placeholder: |
+      placeholder: "Penjelasan Detail"
 
   - type: textarea
     id: expected
