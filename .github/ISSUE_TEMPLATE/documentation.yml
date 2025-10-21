@@ -1,7 +1,8 @@
 name: "📘 Documentation Improvement"
-description: Laporkan kekurangan, kesalahan, atau saran perbaikan pada dokumentasi
+description: "Laporkan kekurangan, kesalahan, atau saran perbaikan pada dokumentasi"
 title: "[Docs]: "
-labels: ["documentation"]
+labels:
+  - documentation
 assignees: []
 
 body:
@@ -15,22 +16,22 @@ body:
     id: doc_section
     attributes:
       label: "Bagian Dokumentasi"
-      description: Sebutkan bagian atau file dokumentasi yang ingin kamu perbaiki
-      placeholder: Contoh: README.md / API.md / docs/setup.md
+      description: "Sebutkan bagian atau file dokumentasi yang ingin kamu perbaiki"
+      placeholder: "Contoh: README.md / API.md / docs/setup.md"
 
   - type: textarea
     id: current_issue
     attributes:
       label: "Masalah atau Kekurangan Saat Ini"
-      description: Jelaskan apa yang kurang, salah, atau membingungkan di dokumentasi
-      placeholder: Contoh: Penjelasan langkah instalasi kurang detail untuk pengguna Windows.
+      description: "Jelaskan apa yang kurang, salah, atau membingungkan di dokumentasi"
+      placeholder: "Contoh: Penjelasan langkah instalasi kurang detail untuk pengguna Windows."
 
   - type: textarea
     id: suggestion
     attributes:
       label: "Saran Perbaikan"
-      description: Tulis saran kamu untuk memperjelas atau memperbaiki dokumentasi
-      placeholder: Contoh: Tambahkan langkah instalasi Python di Windows dan contoh output.
+      description: "Tulis saran kamu untuk memperjelas atau memperbaiki dokumentasi"
+      placeholder: "Contoh: Tambahkan langkah instalasi Python di Windows dan contoh output."
 
   - type: dropdown
     id: priority
@@ -45,5 +46,5 @@ body:
     id: notes
     attributes:
       label: "Catatan Tambahan"
-      description: Info lain yang bisa membantu tim memperbaiki dokumentasi
-      placeholder: Misal: dokumentasi lama di branch `legacy-docs`
+      description: "Info lain yang bisa membantu tim memperbaiki dokumentasi"
+      placeholder: "Misal: dokumentasi lama di branch legacy-docs"
