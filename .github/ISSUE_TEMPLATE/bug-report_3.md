@@ -1,12 +1,3 @@
----
-name: Bug report_3
-about: Create a report to help us improve
-title: "[bug]"
-labels: bug
-assignees: NeilR12
-
----
-
 name: Bug Report
 description: File a bug report.
 title: "[Bug]: "
