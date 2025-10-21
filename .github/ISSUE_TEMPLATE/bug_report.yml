@@ -24,10 +24,6 @@ body:
       label: "🪜 Langkah untuk Mereproduksi"
       description: Urutan langkah agar bug ini bisa direproduksi.
       placeholder: |
-        1. Buka halaman login  
-        2. Isi username dan password  
-        3. Klik tombol login  
-        4. Tidak ada respon
 
   - type: textarea
     id: expected
